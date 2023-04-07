@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct  4 13:18:39 2021
+
+@author: maxrueda
+
+Rueda, Maximillian
+10/5/21
+CSCI 1100
+Lect. Exercises 10.1
+"""
+
+"""
+1. Submit a text file showing the output of the following code:
+
+L1 = [ 1, 5, [5, 2], 'hello' ]
+L2 = L1
+L3 = L1.copy()
+
+L2.append( 4 )
+L1.append( 3 )
+
+print(L1)
+print(L2)
+print(L3)
+"""
+
+[1, 5, [5, 2], 'hello', 4, 3]
+[1, 5, [5, 2], 'hello', 4, 3]
+[1, 5, [5, 2], 'hello']

@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep  2 22:01:38 2021
+
+@author: maxrueda
+
+Rueda, Maximillian
+9/2/21
+CSCI 1100
+Lect. Exercises 2.3
+"""
+
+"""
+Your problem is to determine the output of the Python program shown below. You
+must submit a text file showing the output. (Hint: there should be two lines
+with one integer on each line.) While it is possible to just run the program
+and copy the output, we strongly encourage you to not do this. You need to
+develop the ability to read code and understand what it will do. You will be
+tested on it.
+
+z = 2
+z = z**2**3
+print(z)
+x = 6
+x = x**2 + 6 - z // 10 * 2
+print(x)
+"""
+
+The variable z has the integer value 2 stored in it.
+In the following line, z has exponent values attached to it; first, 2 will go
+to th power of 3, which results in 8. z will then go to the power of 8, which
+results in 256 since 2**8 = 256.
+The updated variable z is then printed in the next line.
+
+The variable x has the integer value 6 stord in it.
+In the followig line, x is put into an equation that features z which we know
+to be 2.
+First, x will go to the power of 2 to become 36 since 6**2 = 36; then, z,
+which now equals 256, goes through integer division by 10, resulting in 25;
+25 is then multiplied by 2 to get 50; putting it all together, 36 + 6 - 50
+equals -8.
+
+Output:
+256
+-8

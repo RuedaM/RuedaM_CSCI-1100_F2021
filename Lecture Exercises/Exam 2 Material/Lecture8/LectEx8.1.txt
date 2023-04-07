@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep 23 17:53:26 2021
+
+@author: maxrueda
+
+Rueda, Maximillian
+9/24/21
+CSCI 1100
+Lect. Exercises 8.1
+"""
+
+"""
+Upload a text file showing the output of the following code to Submitty. As
+ usual, you should try to predict the output by hand.
+
+l1 = [ 6, 12, 13, 'hello' ]
+print(l1[1], l1[-2])
+l1.append( 15 )
+print( len(l1) )
+print( len(l1[3]) )
+l1.pop(3)
+l1.sort()
+l1.insert(2, [14, 15] )
+l1[3] += l1[4]
+l1[3] += l1[2][1]
+print(l1[3])
+l1.pop()
+l1[2].remove(14)
+print(l1)
+"""
+
+6, 12, 13, 'hello'
+6, 12, 13, 'hello', 15
+6, 12, 13, 15
+6, 12, [14,15], 13, 15
+6, 12, [14,15], 28, 15
+6, 12, [14,15], 43, 15
+6, 12, [14,15], 43
+6, 12, [15], 43
+
+
+12 13
+5
+5
+43
+[6, 12, [15], 43]

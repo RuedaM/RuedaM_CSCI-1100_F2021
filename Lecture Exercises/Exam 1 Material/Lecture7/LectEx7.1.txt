@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 20 22:18:52 2021
+
+@author: maxrueda
+
+Rueda, Maximillian
+9/21/21
+CSCI 1100
+Lect. Exercises 7.1
+"""
+
+"""
+What is the output from the following code. Note that we did not cover all of
+ these techniques in class, so you might need to do some exploration on your
+ own.
+
+def hmmm( x ):
+    if x[0] > x[1]:
+        return (x[1], x[0])
+    else:
+        return x
+
+s = ('a', 'b')
+t = (1, 2, 3)
+u = (4, 5, 2)
+print( t[1] + u[0] )
+print( t+u )
+print( s[1] * t[2] )
+print( hmmm(u) )
+print( hmmm( (5, 2, 3) ))
+"""
+
+"""
+1. t[1] equals 2 and u[0] equals 4, so t[1] + u[0] = 4 + 2 = 6
+2. t is (1, 2, 3) and u is (4, 5, 2); this line combines the tuples, so the
+    result is (1, 2, 3, 4, 5, 2)
+3. s[1] is the string 'b' and t[2] equals 3; the string is iterated 3 times,
+    so the result is bbb
+4. the tuple u is put into the user-defined function hmmm(); it states that if
+    x[0] (which in this case is 4) is greater than x[1] (5 in this case) then
+    it will return (x[1], x[0]) (5, 4); however, this is not the case, so the
+    function will return the unaltered tuple (4, 5, 2)
+5. the tuple (5, 2, 3) goes into the function hmm(); in this case, x[0] > x[1]
+    (5 > 2), so the function will return x[1], x[0] which is (2, 5)
+"""
+
+6
+(1, 2, 3, 4, 5, 2)
+bbb
+(4, 5, 2)
+(2, 5)

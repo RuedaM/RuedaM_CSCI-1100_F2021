@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep  8 09:09:07 2021
+
+@author: maxrueda
+
+Rueda, Maximillian
+9/8/21
+CSCI 1100
+Lect. Exercises 3.1
+"""
+
+'''
+Which of the following are valid strings? Upload a text file to Submitty that
+contains just the variable names that are assigned to strings that are correct.
+For example if only the first two were correct your file would contain s0 on
+the first line and s1 on the second. Please use the editor in the Spyder IDE
+to generate the file. Do not use Microsoft Word, Apple Pages or other document
+editors. They embed extra characters in the text that will make your answer
+incorrect.
+
+>>> s0 = "Sheldon Cooper's apartment is in Pasedena"
+
+>>> s1 = 'This cheese shop's cheese is all gone"
+
+>>> s2 = """We are
+"The Knights of the Round Table"
+"""
+
+>>> s3 = "Toto, I said,\n"We aren't in Kansas, anymore!"
+
+
+>>> s4 = 'Have you seen the "Final Five"'s picture?'
+
+
+>>> s5 = "Have you seen the 'Final Five''s picture?"
+'''
+
+
+s0
+s2
+s5

@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep 16 17:30:53 2021
+
+@author: maxrueda
+
+Rueda, Maximillian
+9/16/21
+CSCI 1100
+Lect. Exercises 6.2
+"""
+
+"""
+Consider the following boolean expressions:
+x = 15
+y = -15
+z = 32
+
+x == y and y < z        #A
+x == y or y < z         #B
+x == abs(y) and y < z   #C
+x == abs(y) or y < z    #D
+not x == abs(y)         #E
+not x != abs(y)         #F
+Upload a text file to Submitty containing only the labels (A, B, C, etc.) of
+ the lines that evaluate to True. Each line of the file should contain a
+ single capital letter and the letters should be in alphabetical order.
+"""
+
+B
+C
+D
+F
